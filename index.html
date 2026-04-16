@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/brain-cog.svg" />
+    <title>Lumina</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app">
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <h2 class="logo">Lumina</h2>
+
+        <div class="profile">
+          <div class="avatar">
+            <img src="assets/person-circle.svg" alt="perfil" />
+            <div class="overlay">
+              <img src="assets/settings.svg" alt="settings" />
+            </div>
+          </div>
+          <span>Perfil</span>
+        </div>
+
+        <button class="new-chat">+ Novo chat</button>
+
+        <div class="history">
+          <p class="subtitle">
+            Chats <img src="assets/chevron-down.svg" alt="" />
+          </p>
+          <div class="list">
+            <p>Funções</p>
+            <p>Redação ENEM</p>
+            <p>Física</p>
+          </div>
+        </div>
+
+        <div class="exercises">
+          <p class="subtitle">Exercícios</p>
+        </div>
+      </aside>
+
+      <!-- CHAT -->
+      <main class="chat">
+        <div class="messages">
+          <div class="msg bot">
+            <p>Oi! Vamos estudar para o vestibular hoje?</p>
+          </div>
+
+          <div class="msg user">
+            <p>Quero revisar função do 2º grau</p>
+          </div>
+
+          <div class="msg bot">
+            <p>Boa escolha. Quer começar com teoria ou exercícios?</p>
+          </div>
+        </div>
+
+        <div class="input-area">
+          <input
+            type="text"
+            placeholder="Pergunte qualquer coisa sobre o vestibular..."
+          />
+          <button>
+            <img src="assets/arrow-big-up.svg" alt="send" title="enviar" />
+          </button>
+
+          <button>
+            <img src="assets/plus.svg" alt="send" title="anexos" />
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
