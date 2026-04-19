@@ -103,7 +103,6 @@ cd lumina
 
 ## 👨‍💻 Desenvolvedores
 
-* Seu nome
-* Nome dos integrantes
+* Bernardo
 
 ---
