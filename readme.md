@@ -50,6 +50,7 @@ O Lumina propõe uma plataforma onde o usuário pode interagir com um assistente
 
 * HTML5
 * CSS3
+* JS
 
 ---
 

@@ -1,4 +1,3 @@
-// Seleção de elementos
 const sidebar = document.getElementById('sidebar');
 const logoToggle = document.getElementById('logo-toggle');
 const openBtn = document.getElementById('open-sidebar');
